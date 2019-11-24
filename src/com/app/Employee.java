@@ -5,6 +5,15 @@ public class Employee {
 	private Integer empId;
 	private String empName;
 	private Double salary;
+	private Integer mobileNum;
+	
+	
+	public Integer getMobileNum() {
+		return mobileNum;
+	}
+	public void setMobileNum(Integer mobileNum) {
+		this.mobileNum = mobileNum;
+	}
 	public Integer getEmpId() {
 		return empId;
 	}
